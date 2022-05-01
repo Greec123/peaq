@@ -4,7 +4,7 @@
 User=AS12
 Group=AS12
 ExecStart=/home/Peaq/start_node.sh
-WorkingDirectory=/etc/systemd/system/
+WorkingDirectory=/home/Peaq/
 Restart=always 
 RestartSec=60
 [Install] 
