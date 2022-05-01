@@ -1,0 +1,11 @@
+/etc/systemd/system/peaq.service
+[Unit] Description=Peaq Node
+[Service] 
+User=AS12
+Group=AS12
+ExecStart=/home/Peaq/start_node.sh
+WorkingDirectory=/etc/systemd/system/
+Restart=always 
+RestartSec=60
+[Install] 
+WantedBy=multi-user.target
