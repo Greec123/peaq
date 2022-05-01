@@ -1,3 +1,0 @@
-apt -get udate && apt -get upgrade -y
-COPY ./setup_peaq.sh ./home/Peaq/ 
-CMD sed -i 's/\r//' setup_peaq.sh && ./home/Peaq/setup_peaq.sh
